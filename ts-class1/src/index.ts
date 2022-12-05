@@ -122,3 +122,14 @@ class User {
 
 const cida = new User ('Cida', 'Mãe', true)
 console.log(cida)
+
+class Car  {
+    name;
+    model;
+    constructor(name:string, model:string){
+        this.name = name;
+        this.model = model;
+    }
+}
+
+const gol = new Car ('Volkswagen', 'Gol')
